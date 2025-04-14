@@ -1,6 +1,8 @@
-#pragma once
 #ifndef _DYHOTOMIA_HPP_
 #define _DYHOTOMIA_HPP_
+#include <cmath>
+
+
 class Dyhotomia{
     public:
         Dyhotomia(void);
@@ -10,7 +12,16 @@ class Dyhotomia{
         void setVolumes(double vol_a, double vol_b);
         void setTolerance(double vol_eps);
 
-        int calculate(double &x);
+        int count(double &x);
+
+        bool isSolutionOnSegment();
+
+        double center();
+
+        void belong();
+
+        bool comparisonEps();
+
 
     private:
         double f(double x);
