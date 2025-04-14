@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/+Projects/Students/Anastasia/lab3_1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\main.cpp.obj -c D:\\+Projects\\Students\\Anastasia\\lab3_1\\main.cpp",
+  "file": "D:/+Projects/Students/Anastasia/lab3_1/main.cpp",
+  "output": "CMakeFiles/lab3.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/+Projects/Students/Anastasia/lab3_1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Dyhotomia.cpp.obj -c D:\\+Projects\\Students\\Anastasia\\lab3_1\\Dyhotomia.cpp",
+  "file": "D:/+Projects/Students/Anastasia/lab3_1/Dyhotomia.cpp",
+  "output": "CMakeFiles/lab3.dir/Dyhotomia.cpp.obj"
+}
+]
