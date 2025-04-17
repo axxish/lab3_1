@@ -1,12 +1,12 @@
 #include "Dyhotomia.hpp"
 
-Dyhotomia::Dyhotomia(void)
-  : a(0)
-  , b(0)
-  , eps(0)
+Dyhotomia::Dyhotomia()
+  : a(0.0)
+  , b(0.0)
+  , eps(0.0)
 {
 }
-Dyhotomia::~Dyhotomia(void) {}
+Dyhotomia::~Dyhotomia() {}
 
 void
 Dyhotomia::setVolumes(double vol_a, double vol_b)

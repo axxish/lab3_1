@@ -13,7 +13,6 @@ class Dyhotomia{
         void setTolerance(double vol_eps);
 
         int count(double &x);
-
         bool isSolutionOnSegment();
 
         double center();

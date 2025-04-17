@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab3.dir/Dyhotomia.cpp.obj"
   "CMakeFiles/lab3.dir/Dyhotomia.cpp.obj.d"
+  "CMakeFiles/lab3.dir/Newton.cpp.obj"
+  "CMakeFiles/lab3.dir/Newton.cpp.obj.d"
   "CMakeFiles/lab3.dir/main.cpp.obj"
   "CMakeFiles/lab3.dir/main.cpp.obj.d"
   "lab3.exe"

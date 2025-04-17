@@ -152,6 +152,30 @@ Dyhotomia.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Dyhotomia.cpp.s
 .PHONY : Dyhotomia.cpp.s
 
+Newton.obj: Newton.cpp.obj
+.PHONY : Newton.obj
+
+# target to build an object file
+Newton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Newton.cpp.obj
+.PHONY : Newton.cpp.obj
+
+Newton.i: Newton.cpp.i
+.PHONY : Newton.i
+
+# target to preprocess a source file
+Newton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Newton.cpp.i
+.PHONY : Newton.cpp.i
+
+Newton.s: Newton.cpp.s
+.PHONY : Newton.s
+
+# target to generate assembly for a file
+Newton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Newton.cpp.s
+.PHONY : Newton.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... Dyhotomia.obj
 	@echo ... Dyhotomia.i
 	@echo ... Dyhotomia.s
+	@echo ... Newton.obj
+	@echo ... Newton.i
+	@echo ... Newton.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
